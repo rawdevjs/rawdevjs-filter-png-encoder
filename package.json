@@ -1,0 +1,33 @@
+{
+  "name": "rawdevjs-filter-png-encoder",
+  "version": "1.0.0",
+  "description": "Pure JavaScript PNG encoder",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rawdevjs/rawdevjs-filter-png-encoder.git"
+  },
+  "keywords": [
+    "rawdevjs",
+    "png",
+    "encoder"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawdevjs/rawdevjs-filter-png-encoder/issues"
+  },
+  "homepage": "https://github.com/rawdevjs/rawdevjs-filter-png-encoder",
+  "dependencies": {
+    "datastream.js": "^0.1.0",
+    "zlibjs": "^0.2.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "readmeFilename": "README.md"
+}
